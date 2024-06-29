@@ -1,0 +1,3987 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Vanosilla\\server\\srcs\\GameChannel\\GameChannel.csproj": {}
+  },
+  "projects": {
+    "D:\\Vanosilla\\server\\srcs\\GameChannel\\GameChannel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\GameChannel\\GameChannel.csproj",
+        "projectName": "GameChannel",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\GameChannel\\GameChannel.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\GameChannel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Abstractions\\PhoenixLib.DAL.Abstractions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Abstractions\\PhoenixLib.DAL.Abstractions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Events\\PhoenixLib.Events.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Events\\PhoenixLib.Events.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\PhoenixLib.Messaging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\PhoenixLib.Messaging.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Multilanguage\\PhoenixLib.Multilanguage.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Multilanguage\\PhoenixLib.Multilanguage.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler.ReactiveX\\PhoenixLib.Scheduler.ReactiveX.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler.ReactiveX\\PhoenixLib.Scheduler.ReactiveX.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\Plugin.RainbowBattle\\Plugin.RainbowBattle.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\Plugin.RainbowBattle\\Plugin.RainbowBattle.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsEmu.Communication.gRPC\\WingsEmu.Communication.gRPC.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsEmu.Communication.gRPC\\WingsEmu.Communication.gRPC.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.Act4\\Plugin.Act4.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.Act4\\Plugin.Act4.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.CoreImpl\\Plugin.CoreImpl.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.CoreImpl\\Plugin.CoreImpl.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.FamilyImpl\\Plugin.FamilyImpl.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.FamilyImpl\\Plugin.FamilyImpl.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.PlayerLogs\\Plugin.PlayerLogs.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.PlayerLogs\\Plugin.PlayerLogs.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.QuestImpl\\Plugin.QuestImpl.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.QuestImpl\\Plugin.QuestImpl.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.Raids\\Plugin.Raids.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.Raids\\Plugin.Raids.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.ResourceLoader\\Plugin.ResourceLoader.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.ResourceLoader\\Plugin.ResourceLoader.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.TimeSpaces\\Plugin.TimeSpaces.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.TimeSpaces\\Plugin.TimeSpaces.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.BasicImplementation\\WingsEmu.Plugins.BasicImplementations.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.BasicImplementation\\WingsEmu.Plugins.BasicImplementations.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.DistributedGameEvents\\WingsEmu.Plugins.DistributedGameEvents.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.DistributedGameEvents\\WingsEmu.Plugins.DistributedGameEvents.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.Essentials\\WingsEmu.Plugins.Essentials.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.Essentials\\WingsEmu.Plugins.Essentials.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.PacketHandling\\WingsEmu.Plugins.PacketHandling.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.PacketHandling\\WingsEmu.Plugins.PacketHandling.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.38.0, )"
+            },
+            "NetCoreServer": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            },
+            "dotenv.net": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Caching\\PhoenixLib.Caching.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Caching\\PhoenixLib.Caching.csproj",
+        "projectName": "PhoenixLib.Caching",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Caching\\PhoenixLib.Caching.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Caching\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "CacheManager.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj",
+        "projectName": "PhoenixLib.Configuration",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Abstractions\\PhoenixLib.DAL.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Abstractions\\PhoenixLib.DAL.Abstractions.csproj",
+        "projectName": "PhoenixLib.DAL.Abstractions",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Abstractions\\PhoenixLib.DAL.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj",
+        "projectName": "PhoenixLib.DAL.Redis",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Abstractions\\PhoenixLib.DAL.Abstractions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Abstractions\\PhoenixLib.DAL.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Foundatio.JsonNet": {
+              "target": "Package",
+              "version": "[10.2.0, )"
+            },
+            "Foundatio.Redis": {
+              "target": "Package",
+              "version": "[10.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.62, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Events\\PhoenixLib.Events.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Events\\PhoenixLib.Events.csproj",
+        "projectName": "PhoenixLib.Events",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Events\\PhoenixLib.Events.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Events\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Extensions\\PhoenixLib.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Extensions\\PhoenixLib.Extensions.csproj",
+        "projectName": "PhoenixLib.Extensions",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Extensions\\PhoenixLib.Extensions.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj",
+        "projectName": "PhoenixLib.Logging",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\PhoenixLib.Messaging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\PhoenixLib.Messaging.csproj",
+        "projectName": "PhoenixLib.Messaging",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\PhoenixLib.Messaging.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "CloudNative.CloudEvents": {
+              "target": "Package",
+              "version": "[1.3.80, )"
+            },
+            "CloudNative.CloudEvents.Mqtt": {
+              "target": "Package",
+              "version": "[1.3.80, )"
+            },
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[3.0.16, )"
+            },
+            "MQTTnet.Extensions.ManagedClient": {
+              "target": "Package",
+              "version": "[3.0.16, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Multilanguage\\PhoenixLib.Multilanguage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Multilanguage\\PhoenixLib.Multilanguage.csproj",
+        "projectName": "PhoenixLib.Multilanguage",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Multilanguage\\PhoenixLib.Multilanguage.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Multilanguage\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Foundatio.JsonNet": {
+              "target": "Package",
+              "version": "[10.2.0, )"
+            },
+            "Foundatio.Redis": {
+              "target": "Package",
+              "version": "[10.2.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.62, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler.ReactiveX\\PhoenixLib.Scheduler.ReactiveX.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler.ReactiveX\\PhoenixLib.Scheduler.ReactiveX.csproj",
+        "projectName": "PhoenixLib.Scheduler.ReactiveX",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler.ReactiveX\\PhoenixLib.Scheduler.ReactiveX.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler.ReactiveX\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler\\PhoenixLib.Scheduler.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler\\PhoenixLib.Scheduler.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler\\PhoenixLib.Scheduler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler\\PhoenixLib.Scheduler.csproj",
+        "projectName": "PhoenixLib.Scheduler",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler\\PhoenixLib.Scheduler.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\Plugin.RainbowBattle\\Plugin.RainbowBattle.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\Plugin.RainbowBattle\\Plugin.RainbowBattle.csproj",
+        "projectName": "Plugin.RainbowBattle",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\Plugin.RainbowBattle\\Plugin.RainbowBattle.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\Plugin.RainbowBattle\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\WingsAPI.Packets.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\WingsAPI.Packets.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj",
+        "projectName": "WingsAPI.Commands",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Qmmands": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\WingsAPI.Communication\\WingsAPI.Communication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Communication\\WingsAPI.Communication.csproj",
+        "projectName": "WingsAPI.Communication",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Communication\\WingsAPI.Communication.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Communication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Abstractions\\PhoenixLib.DAL.Abstractions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Abstractions\\PhoenixLib.DAL.Abstractions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\PhoenixLib.Messaging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\PhoenixLib.Messaging.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Data\\WingsAPI.Data.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Data\\WingsAPI.Data.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\WingsAPI.Packets.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\WingsAPI.Packets.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "System.ServiceModel.Primitives": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\WingsAPI.Data\\WingsAPI.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Data\\WingsAPI.Data.csproj",
+        "projectName": "WingsAPI.Data",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Data\\WingsAPI.Data.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Abstractions\\PhoenixLib.DAL.Abstractions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Abstractions\\PhoenixLib.DAL.Abstractions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Multilanguage\\PhoenixLib.Multilanguage.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Multilanguage\\PhoenixLib.Multilanguage.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\WingsAPI.Packets.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\WingsAPI.Packets.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[3.0.101, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj",
+        "projectName": "WingsAPI.Game.Extensions",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler\\PhoenixLib.Scheduler.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler\\PhoenixLib.Scheduler.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\WingsAPI.Packets.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\WingsAPI.Packets.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj",
+        "projectName": "WingsAPI.Game",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Events\\PhoenixLib.Events.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Events\\PhoenixLib.Events.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Multilanguage\\PhoenixLib.Multilanguage.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Multilanguage\\PhoenixLib.Multilanguage.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Communication\\WingsAPI.Communication.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Communication\\WingsAPI.Communication.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Data\\WingsAPI.Data.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Data\\WingsAPI.Data.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\WingsAPI.Packets.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\WingsAPI.Packets.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "CloneExtensions": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets.Handling\\WingsAPI.Packets.Handling.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets.Handling\\WingsAPI.Packets.Handling.csproj",
+        "projectName": "WingsAPI.Packets.Handling",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets.Handling\\WingsAPI.Packets.Handling.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets.Handling\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Extensions\\PhoenixLib.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Extensions\\PhoenixLib.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\WingsAPI.Packets.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\WingsAPI.Packets.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\WingsAPI.Packets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\WingsAPI.Packets.csproj",
+        "projectName": "WingsAPI.Packets",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\WingsAPI.Packets.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj",
+        "projectName": "WingsAPI.Plugins",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Extensions\\PhoenixLib.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Extensions\\PhoenixLib.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting.LUA\\WingsAPI.Scripting.LUA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting.LUA\\WingsAPI.Scripting.LUA.csproj",
+        "projectName": "WingsAPI.Scripting.LUA",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting.LUA\\WingsAPI.Scripting.LUA.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting.LUA\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting\\WingsAPI.Scripting.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting\\WingsAPI.Scripting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "MoonSharp": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting\\WingsAPI.Scripting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting\\WingsAPI.Scripting.csproj",
+        "projectName": "WingsAPI.Scripting",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting\\WingsAPI.Scripting.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\WingsEmu.Communication.gRPC\\WingsEmu.Communication.gRPC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\WingsEmu.Communication.gRPC\\WingsEmu.Communication.gRPC.csproj",
+        "projectName": "WingsEmu.Communication.gRPC",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsEmu.Communication.gRPC\\WingsEmu.Communication.gRPC.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\WingsEmu.Communication.gRPC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Communication\\WingsAPI.Communication.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Communication\\WingsAPI.Communication.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Data\\WingsAPI.Data.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Data\\WingsAPI.Data.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.17.3, )"
+            },
+            "Grpc": {
+              "target": "Package",
+              "version": "[2.38.1, )"
+            },
+            "Grpc.Net.ClientFactory": {
+              "target": "Package",
+              "version": "[2.38.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.38.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[3.0.101, )"
+            },
+            "protobuf-net.Grpc.ClientFactory": {
+              "target": "Package",
+              "version": "[1.0.152, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\WingsEmu.Health\\WingsEmu.Health.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\WingsEmu.Health\\WingsEmu.Health.csproj",
+        "projectName": "WingsEmu.Health",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsEmu.Health\\WingsEmu.Health.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\WingsEmu.Health\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\PhoenixLib.Messaging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\PhoenixLib.Messaging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "PhoenixLib.Messaging": {
+              "target": "Package",
+              "version": "[1.50.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.Act4\\Plugin.Act4.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.Act4\\Plugin.Act4.csproj",
+        "projectName": "Plugin.Act4",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.Act4\\Plugin.Act4.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.Act4\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Events\\PhoenixLib.Events.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Events\\PhoenixLib.Events.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting.LUA\\WingsAPI.Scripting.LUA.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting.LUA\\WingsAPI.Scripting.LUA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.CoreImpl\\Plugin.CoreImpl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.CoreImpl\\Plugin.CoreImpl.csproj",
+        "projectName": "Plugin.CoreImpl",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.CoreImpl\\Plugin.CoreImpl.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.CoreImpl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Events\\PhoenixLib.Events.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Events\\PhoenixLib.Events.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.FamilyImpl\\Plugin.FamilyImpl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.FamilyImpl\\Plugin.FamilyImpl.csproj",
+        "projectName": "Plugin.FamilyImpl",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.FamilyImpl\\Plugin.FamilyImpl.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.FamilyImpl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Caching\\PhoenixLib.Caching.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Caching\\PhoenixLib.Caching.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Extensions\\PhoenixLib.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Extensions\\PhoenixLib.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\PhoenixLib.Messaging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\PhoenixLib.Messaging.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsEmu.Communication.gRPC\\WingsEmu.Communication.gRPC.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsEmu.Communication.gRPC\\WingsEmu.Communication.gRPC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.PlayerLogs\\Plugin.PlayerLogs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.PlayerLogs\\Plugin.PlayerLogs.csproj",
+        "projectName": "Plugin.PlayerLogs",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.PlayerLogs\\Plugin.PlayerLogs.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.PlayerLogs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\PhoenixLib.Messaging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\PhoenixLib.Messaging.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.QuestImpl\\Plugin.QuestImpl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.QuestImpl\\Plugin.QuestImpl.csproj",
+        "projectName": "Plugin.QuestImpl",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.QuestImpl\\Plugin.QuestImpl.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.QuestImpl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Caching\\PhoenixLib.Caching.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Caching\\PhoenixLib.Caching.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Extensions\\PhoenixLib.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Extensions\\PhoenixLib.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler\\PhoenixLib.Scheduler.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Scheduler\\PhoenixLib.Scheduler.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.Raids\\Plugin.Raids.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.Raids\\Plugin.Raids.csproj",
+        "projectName": "Plugin.Raids",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.Raids\\Plugin.Raids.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.Raids\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.DAL.Redis\\PhoenixLib.DAL.Redis.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting.LUA\\WingsAPI.Scripting.LUA.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting.LUA\\WingsAPI.Scripting.LUA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.ResourceLoader\\Plugin.ResourceLoader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.ResourceLoader\\Plugin.ResourceLoader.csproj",
+        "projectName": "Plugin.ResourceLoader",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.ResourceLoader\\Plugin.ResourceLoader.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.ResourceLoader\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Caching\\PhoenixLib.Caching.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Caching\\PhoenixLib.Caching.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Multilanguage\\PhoenixLib.Multilanguage.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Multilanguage\\PhoenixLib.Multilanguage.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Data\\WingsAPI.Data.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Data\\WingsAPI.Data.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.TimeSpaces\\Plugin.TimeSpaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.TimeSpaces\\Plugin.TimeSpaces.csproj",
+        "projectName": "Plugin.TimeSpaces",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.TimeSpaces\\Plugin.TimeSpaces.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\Plugin.TimeSpaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting.LUA\\WingsAPI.Scripting.LUA.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting.LUA\\WingsAPI.Scripting.LUA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.BasicImplementation\\WingsEmu.Plugins.BasicImplementations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.BasicImplementation\\WingsEmu.Plugins.BasicImplementations.csproj",
+        "projectName": "WingsEmu.Plugins.BasicImplementations",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.BasicImplementation\\WingsEmu.Plugins.BasicImplementations.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.BasicImplementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Caching\\PhoenixLib.Caching.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Caching\\PhoenixLib.Caching.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Logging\\PhoenixLib.Logging.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting\\WingsAPI.Scripting.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting\\WingsAPI.Scripting.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsEmu.Communication.gRPC\\WingsEmu.Communication.gRPC.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsEmu.Communication.gRPC\\WingsEmu.Communication.gRPC.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.DistributedGameEvents\\WingsEmu.Plugins.DistributedGameEvents.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.DistributedGameEvents\\WingsEmu.Plugins.DistributedGameEvents.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.GameEvents\\WingsEmu.Plugins.GameEvents.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.GameEvents\\WingsEmu.Plugins.GameEvents.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            },
+            "RandN": {
+              "target": "Package",
+              "version": "[0.3.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.DistributedGameEvents\\WingsEmu.Plugins.DistributedGameEvents.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.DistributedGameEvents\\WingsEmu.Plugins.DistributedGameEvents.csproj",
+        "projectName": "WingsEmu.Plugins.DistributedGameEvents",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.DistributedGameEvents\\WingsEmu.Plugins.DistributedGameEvents.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.DistributedGameEvents\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\PhoenixLib.Messaging.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Messaging\\PhoenixLib.Messaging.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.Essentials\\WingsEmu.Plugins.Essentials.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.Essentials\\WingsEmu.Plugins.Essentials.csproj",
+        "projectName": "WingsEmu.Plugins.Essentials",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.Essentials\\WingsEmu.Plugins.Essentials.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.Essentials\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting.LUA\\WingsAPI.Scripting.LUA.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Scripting.LUA\\WingsAPI.Scripting.LUA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.GameEvents\\WingsEmu.Plugins.GameEvents.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.GameEvents\\WingsEmu.Plugins.GameEvents.csproj",
+        "projectName": "WingsEmu.Plugins.GameEvents",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.GameEvents\\WingsEmu.Plugins.GameEvents.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.GameEvents\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\PhoenixLib.Configuration\\PhoenixLib.Configuration.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\Plugin.RainbowBattle\\Plugin.RainbowBattle.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\Plugin.RainbowBattle\\Plugin.RainbowBattle.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Commands\\WingsAPI.Commands.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Plugins\\WingsAPI.Plugins.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.PacketHandling\\WingsEmu.Plugins.PacketHandling.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.PacketHandling\\WingsEmu.Plugins.PacketHandling.csproj",
+        "projectName": "WingsEmu.Plugins.PacketHandling",
+        "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.PacketHandling\\WingsEmu.Plugins.PacketHandling.csproj",
+        "packagesPath": "C:\\Users\\jadde\\.nuget\\packages\\",
+        "outputPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.PacketHandling\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioShared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Vanosilla\\server\\NuGet.Config",
+          "C:\\Users\\jadde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game.Extensions\\WingsAPI.Game.Extensions.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Game\\WingsAPI.Game.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets.Handling\\WingsAPI.Packets.Handling.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsAPI.Packets.Handling\\WingsAPI.Packets.Handling.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\WingsEmu.Health\\WingsEmu.Health.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\WingsEmu.Health\\WingsEmu.Health.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.BasicImplementation\\WingsEmu.Plugins.BasicImplementations.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.BasicImplementation\\WingsEmu.Plugins.BasicImplementations.csproj"
+              },
+              "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.DistributedGameEvents\\WingsEmu.Plugins.DistributedGameEvents.csproj": {
+                "projectPath": "D:\\Vanosilla\\server\\srcs\\_plugins\\WingsEmu.Plugins.DistributedGameEvents\\WingsEmu.Plugins.DistributedGameEvents.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[5.102.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

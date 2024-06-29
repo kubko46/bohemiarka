@@ -1,0 +1,37 @@
+{
+  "profiles": {
+    "GameChannel": {
+      "commandName": "Project",
+      "workingDirectory": "D:\\Vanosilla\\server\\dist\\game-server"
+    },
+    "CH2": {
+      "commandName": "Executable",
+      "executablePath": "D:\\Vanosilla\\server\\dist\\game-server\\GameChannel.exe",
+      "workingDirectory": "D:\\Vanosilla\\server\\dist\\game-server",
+      "environmentVariables": {
+        "GAME_SERVER_PORT": "8001",
+        "GAME_SERVER_CHANNEL_ID": "2",
+        "HTTP_LISTEN_PORT": "17501"
+      }
+    },
+    "ACT4": {
+      "commandName": "Executable",
+      "executablePath": "D:\\Vanosilla\\server\\dist\\game-server\\GameChannel.exe",
+      "workingDirectory": "D:\\Vanosilla\\server\\dist\\game-server",
+      "environmentVariables": {
+        "GAME_SERVER_PORT": "8051",
+        "GAME_SERVER_CHANNEL_ID": "51",
+        "GAME_SERVER_CHANNEL_TYPE": "ACT_4",
+        "HTTP_LISTEN_PORT": "17551"
+      }
+    }
+  },
+  "GameChannel": {
+    "commandName": "Project",
+    "launchBrowser": true,
+    "environmentVariables": {
+      "ASPNETCORE_ENVIRONMENT": "Development"
+    },
+    "applicationUrl": "https://localhost:5001;http://localhost:5000"
+  }
+}
