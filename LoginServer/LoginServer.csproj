@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <OutputPath>..\..\dist\login-server\</OutputPath>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+        <PackageReference Include="dotenv.net" Version="3.1.0" />
+        <PackageReference Include="NetCoreServer" Version="5.1.0" />
+        <PackageReference Include="Z.EntityFramework.Extensions.EFCore" Version="5.102.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\PhoenixLib.Caching\PhoenixLib.Caching.csproj" />
+        <ProjectReference Include="..\PhoenixLib.DAL.Redis\PhoenixLib.DAL.Redis.csproj" />
+        <ProjectReference Include="..\PhoenixLib.Logging\PhoenixLib.Logging.csproj" />
+        <ProjectReference Include="..\PhoenixLib.Multilanguage\PhoenixLib.Multilanguage.csproj" />
+        <ProjectReference Include="..\WingsEmu.Communication.gRPC\WingsEmu.Communication.gRPC.csproj" />
+        <ProjectReference Include="..\WingsEmu.Health\WingsEmu.Health.csproj" />
+    </ItemGroup>
+
+</Project>
